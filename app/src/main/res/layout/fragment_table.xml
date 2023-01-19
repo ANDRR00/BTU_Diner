@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/table1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border"
+                    android:layout_margin="10dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N1"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/table2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border"
+                    android:layout_margin="10dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N2"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageVie"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N3"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N4"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/table5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView123"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N5"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView312"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView95"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N6"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView1625"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView122121"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N7"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/table8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView223"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView196"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N8"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageVie56"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView121"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView2210"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView612"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N10"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/table11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView123123"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView511"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N11"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/imageView31212"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView9215"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N12"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/table13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView1126"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView1212"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N13"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/table14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView2323"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView532"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N14"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageVie15"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N15"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView205"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView655"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N16"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/table17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView1203"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView501"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N17"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView3012"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView905"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N18"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView16025"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView1221410121"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N19"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/table20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView2203"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView122196"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N20"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageVie50016"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView1220121"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N21"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView221200"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView62112"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N22"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/table23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView123121123"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView512111"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N23"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/table24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:id="@+id/imageView310212"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/istockphoto_1160805942_170667a" />
+
+                    <TextView
+                        android:id="@+id/textView920015"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="80dp"
+                        android:textColor="@color/black"
+                        android:text="მაგიდა N24"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

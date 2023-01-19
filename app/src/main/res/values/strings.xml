@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">BTU Diner</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_1">ბრაუნი</string>
+    <string name="food_2">პიცა</string>
+    <string name="food_3">ღვეზელი</string>
+    <string name="food_4">ბუტერბროდი</string>
+    <string name="food_5">ჰოთდოგი</string>
+    <string name="food_6">პეროგი</string>
+    <string name="food_7">კრუასანი</string>
+    <string name="food_8">ლობიანი</string>
+    <string name="food_9">ხაჭაპური</string>
+    <string name="food_10">სენდვიჩი</string>
+
+    <string name="drink_1">ყავა</string>
+    <string name="drink_2">ჩაი</string>
+    <string name="drink_3">კოკა-კოლა</string>
+    <string name="drink_4">სპრაიტი</string>
+    <string name="drink_5">ფანტა</string>
+    <string name="drink_6">წყალი</string>
+    <string name="drink_7">ქილის კოკა-კოლა</string>
+    <string name="drink_8">ქილის სპრაიტი</string>
+
+    <string name="table_1">მაგიდა N1</string>
+    <string name="table_2">მაგიდა N2</string>
+    <string name="table_3">მაგიდა N3</string>
+    <string name="table_4">მაგიდა N4</string>
+    <string name="table_5">მაგიდა N5</string>
+    <string name="table_6">მაგიდა N6</string>
+    <string name="table_7">მაგიდა N7</string>
+    <string name="table_8">მაგიდა N8</string>
+    <string name="table_9">მაგიდა N9</string>
+    <string name="table_10">მაგიდა N10</string>
+    <string name="table_11">მაგიდა N11</string>
+    <string name="table_12">მაგიდა N12</string>
+    <string name="table_13">მაგიდა N13</string>
+    <string name="table_14">მაგიდა N14</string>
+    <string name="table_15">მაგიდა N15</string>
+    <string name="table_16">მაგიდა N16</string>
+    <string name="table_17">მაგიდა N17</string>
+    <string name="table_18">მაგიდა N18</string>
+    <string name="table_19">მაგიდა N19</string>
+    <string name="table_20">მაგიდა N20</string>
+    <string name="table_21">მაგიდა N21</string>
+    <string name="table_22">მაგიდა N22</string>
+    <string name="table_23">მაგიდა N23</string>
+    <string name="table_24">მაგიდა N24</string>
+
+</resources>
